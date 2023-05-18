@@ -112,6 +112,21 @@ button.red,
     background-color: var(--red);
 }
 
+/* Fill */
+
+.fill-primary {
+    fill: var(--white-bg);
+}
+
+.fill-green {
+    fill: var(--green);
+}
+
+.fill-red {
+    fill: var(--red);
+}
+
+
 /* Shadow */
 
 .shadow {
