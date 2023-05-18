@@ -1,0 +1,119 @@
+* {
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+
+    color: var(--white);
+}
+
+*:focus {
+	outline: none;
+}
+
+:root {
+	--green: #18c989;
+	--white: #fff;
+	--white-bg: #adadad50;
+	--red: #ce3131;
+	--blue: #00bfff;
+
+	--border: 0.2rem solid var(--white-bg);
+
+	--transition: all 0.1s linear;
+
+	--hover: brightness(1.1);
+
+    --shadow: box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Secondary Font */
+
+.font-secondary {
+	font-family: "Roboto", sans-serif;
+}
+
+/* Selected */
+
+.selected {
+	background-color: var(--green);
+	color: var(--white);
+}
+
+/* Button */
+
+.btn,
+button {
+	background-color: var(--green);
+	color: var(--white);
+	border: var(--border);
+	padding: 1rem 2rem;
+	cursor: pointer;
+	transition: var(--transition);
+}
+
+button:hover,
+.btn:hover {
+	filter: var(--hover);
+}
+
+button.primary,
+.btn.primary {
+	background-color: var(--white-bg);
+}
+
+button.red,
+.btn.primary {
+	background-color: var(--red);
+}
+
+/* Border */
+
+.border {
+	border: var(--border);
+}
+
+/* scroller */
+
+.scroll-hide::-webkit-scrollbar {
+	display: none;
+}
+
+*::-webkit-scrollbar {
+	width: 1rem;
+}
+
+*::-webkit-scrollbar-track {
+	background: none;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: var(--white-bg);
+	border-radius: 0px;
+	border: var(--border);
+}
+
+*::-webkit-scrollbar-thumb:hover {
+	filter: var(--hover);
+}
+
+/* Backgrounds */
+
+.bg-primary {
+    background-color: var(--white-bg);
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+
+.bg-red {
+    background-color: var(--red);
+}
+
+/* Shadow */
+
+.shadow {
+    box-shadow: var(--shadow);
+}
