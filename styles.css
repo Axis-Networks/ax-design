@@ -63,12 +63,13 @@ button:hover,
 	filter: var(--hover);
 }
 
-.button.green {
+button.green,
+.btn.green {
     background-color: var(--green);
 }
 
 button.red,
-.btn.primary {
+.btn.red {
 	background-color: var(--red);
 }
 
