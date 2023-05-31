@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 @font-face {
     font-family: 'Conneqt';
     src: url(./fonts/Conneqt.ttf);
@@ -38,7 +40,7 @@
 /* Secondary Font */
 
 .font-secondary {
-	font-family: "Roboto", sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 /* Selected */
