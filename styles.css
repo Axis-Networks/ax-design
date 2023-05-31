@@ -13,6 +13,7 @@
 	-ms-user-select: none;
     color: var(--white);
     font-family: 'Conneqt', sans-serif;
+	-webkit-font-smoothing: antialiased;
 }
 
 *:focus {
